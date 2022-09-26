@@ -23,6 +23,7 @@ pub struct Universe {
     cells  : Vec<Cell>
 }
 
+// NOTE Not really random right now -- `rand` crate wasn't being downloaded
 fn random_cells(width:u32, height:u32) -> Vec<Cell> {
     let cells = (0..width * height).map(|i| {
         if i % 2 == 0 || i % 7 == 0 {
