@@ -11,3 +11,6 @@ Cargo.lock
 
 # DO NOT CHECK-IN THE TOKEN
 token
+
+# www sub-repo -- renamed to dot.git
+dotgit/
