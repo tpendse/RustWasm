@@ -12,6 +12,9 @@ Cargo.lock
 # DO NOT CHECK-IN THE TOKEN
 token
 
+# Reference code -- local to dev machine
+ref/
+
 # www sub-repo -- renamed to dot.git
 dotgit/
 
