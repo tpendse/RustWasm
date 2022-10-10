@@ -14,3 +14,7 @@ token
 
 # www sub-repo -- renamed to dot.git
 dotgit/
+
+# Yew generated folders
+dist/
+target/
