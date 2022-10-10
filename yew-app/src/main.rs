@@ -10,9 +10,9 @@ fn app() -> Html {
             <h1>{"Hello, World!"}</h1>
             <h3>{"This is output from yew WASM"}</h3>
             <div>
-                <CappedInputComponent />
-                <CappedInputComponent />
-                <CappedInputComponent />
+                <CappedInputComponent min_value={0}   max_value={10} />
+                <CappedInputComponent min_value={10}  max_value={100} />
+                <CappedInputComponent min_value={100} max_value={1000} />
             </div>
         </div>
     }
