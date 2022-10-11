@@ -1,6 +1,5 @@
 use web_sys::{HtmlInputElement};
 use yew::{Component, html, Html, Properties, InputEvent, TargetCast, NodeRef};
-use yew_stdweb::events::{ ChangeData };
 
 pub enum Msg {
 	SetInput(u32)
